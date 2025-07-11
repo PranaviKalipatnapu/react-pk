@@ -1,0 +1,25 @@
+{
+  "name": "react-pk",
+  "version": "1.0.0",
+  "description": "This is a sample react app ref namaste react",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PranaviKalipatnapu/react-pk.git"
+  },
+  "author": "Pranavi Kalipatnapu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PranaviKalipatnapu/react-pk/issues"
+  },
+  "homepage": "https://github.com/PranaviKalipatnapu/react-pk#readme",
+  "devDependencies": {
+    "parcel": "^2.15.4"
+  },
+  "browsersList": [
+    "last 2 Chrome version",
+    "last 2 Firefox version"
+  ]
+}

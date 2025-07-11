@@ -1,8 +1,10 @@
+import React from "react";
+import ReactDOM from "react-dom/client";
 
-const parent = React.createElement("div", { id: "parent" },
+const parent = React.createElement("div", { id: "parent " },
      React.createElement("div", { id: "child" },
-        [React.createElement("h1", { style: { color: "green" } }, "I'm an h1 tag!"), 
-            React.createElement("h2", { style: { color: "grey" } }, "I'm a h2 tag- sibling to h1!")
+        [React.createElement("h1", { id: "sibling1", style: { color: "green" } }, "I'm an h1 tag!"), 
+            React.createElement("h2", { id: "sibling2", style: { color: "grey" } }, "I'm a h2 tag- sibling to h1!")
         ]
         )
     );
