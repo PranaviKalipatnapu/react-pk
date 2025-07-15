@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "This is a sample react app ref namaste react",
   "scripts": {
+    "start": "npx parcel index.html",
+    "build": "npx parcel build index.html",
     "test": "jest"
   },
   "repository": {
@@ -18,8 +20,8 @@
   "devDependencies": {
     "parcel": "^2.15.4"
   },
-  "browsersList": [
-    "last 2 Chrome version",
-    "last 2 Firefox version"
-  ]
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  }
 }

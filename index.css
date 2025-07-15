@@ -1,3 +1,94 @@
-#heading {
-    color: #d82929;
+.header {
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid orangered;
+    border-radius:0.3rem;
 }
+
+.logo {
+    width:8%;
+}
+
+.nav-items > ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-items > ul > li {
+    padding:1rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.cartLogo {
+ width:2rem;
+}
+
+.body {
+    padding-top:1rem;
+}
+.restaurants-container {
+ border: 1px solid orangered;
+ border-radius:0.3rem;
+ padding: 0.5rem 1rem;
+ display:flex;
+ flex-wrap: wrap;
+ 
+}
+.rest-logo {
+    width:20rem;
+    height:15rem;
+}
+.restaurant-card {
+    padding:15px;
+    width:21rem;
+    background-color: bisque;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+.restaurant-card:hover {
+    cursor: pointer;
+     border:3px solid orange;
+}
+
+.footer {
+    border: 2px solid slategrey;
+    border-radius: 0.3rem;
+    justify-content: space-between;
+    display:flex
+}
+
+.socialMediaLogo {
+    display:flex;
+}
+
+.instaLogo {
+    width:20px;
+
+}
+.xLogo {
+    width:20px;
+
+}
+.fbLogo {
+    width:20px;
+
+}
+
+.copyRightLogo {
+    width: 20px;
+}
+
+.app {
+    display:flex;
+    flex-direction:column;
+    width:100%;
+}
+
+.restaurantlogo {
+    width:2px;
+}
+
+.search-container {
+    padding-bottom:1rem;
+}
+
